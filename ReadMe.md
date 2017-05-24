@@ -10,6 +10,6 @@ Requirements:
   
     Resource code of SIFT (Scale-Invariant Feature Transform): An algorithm that can transform face data into scale-invariant coordinates relative to local features.
   
-    Resource code of LDA (Latent Dirichlet Allocation): A generative probabilistic model.
+    Resource code of LDA (Latent Dirichlet Allocation): A generative probabilistic model.   
 
 
