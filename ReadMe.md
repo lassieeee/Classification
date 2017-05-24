@@ -1,6 +1,7 @@
 This is a classification method for the construction of initial shape pool for robust facial landmark localization.
 
 Requirements:
+
 	Visual Studio 2010
 	MFC
 	OpenCV: Open Source Computer Vision library.
