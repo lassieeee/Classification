@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="sift">
+      <UniqueIdentifier>{bf1a2879-eca4-4c90-a69c-30ad3f091cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lda">
+      <UniqueIdentifier>{1ffd0279-0aca-4b6c-8b68-bbe699ed83e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Classification.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Classification.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sift\imgfeatures.h">
+      <Filter>sift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sift\kdtree.h">
+      <Filter>sift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sift\minpq.h">
+      <Filter>sift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sift\sift.h">
+      <Filter>sift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sift\utils.h">
+      <Filter>sift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sift\xform.h">
+      <Filter>sift</Filter>
+    </ClInclude>
+    <ClInclude Include="Ini.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lda\document.h">
+      <Filter>lda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lda\file_access.h">
+      <Filter>lda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lda\lda.h">
+      <Filter>lda</Filter>
+    </ClInclude>
+    <ClInclude Include="Classification.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassificationDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sift\imgfeatures.c">
+      <Filter>sift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sift\kdtree.c">
+      <Filter>sift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sift\minpq.c">
+      <Filter>sift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sift\sift.c">
+      <Filter>sift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sift\utils.c">
+      <Filter>sift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sift\xform.c">
+      <Filter>sift</Filter>
+    </ClCompile>
+    <ClCompile Include="Ini.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lda\document.cc">
+      <Filter>lda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lda\file_access.cc">
+      <Filter>lda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lda\lda.cc">
+      <Filter>lda</Filter>
+    </ClCompile>
+    <ClCompile Include="Classification.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassificationDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Classification.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
