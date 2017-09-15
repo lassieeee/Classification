@@ -1,10 +1,9 @@
 
-// PPDlg.h : 头文件
+// ClassificationDlg.h : 头文件
 //
 
 #pragma once
 #include "ini.h"
-
 
 // CPPDlg 对话框
 class CPPDlg : public CDialogEx
@@ -14,7 +13,7 @@ public:
 	CPPDlg(CWnd* pParent = NULL);	// 标准构造函数
 
 // 对话框数据
-	enum { IDD = IDD_PP_DIALOG };
+	enum { IDD = IDD_Classification_DIALOG };
 
 	protected:
 	virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV 支持

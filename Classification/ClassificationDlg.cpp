@@ -1,5 +1,5 @@
 
-// PPDlg.cpp : 实现文件
+// ClassificationDlg.cpp : 实现文件
 //
 
 #include "stdafx.h"

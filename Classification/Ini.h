@@ -1,6 +1,6 @@
 #pragma once
 
-#define DEF_SECTION L"PPINI"
+#define DEF_SECTION L"ClassificationINI"
 #define MAX_BUF_LEN 255
 #define SUFFIX_FEATURE L".feature" // feature文件的后缀名
 #define SUFFIX_WORD L".word" //词频文件后缀名

@@ -1,6 +1,6 @@
-[PPINI]
-openDir=E:\APPËØ²Ä\3DRecon\test
-saveDir=E:\APPËØ²Ä\3DRecon\test\result
+[ClassificationINI]
+openDir=E:\test
+saveDir=E:\test\result
 kmens_k=2
 lda_k=2
 isSiftDraw=1
